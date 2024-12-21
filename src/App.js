@@ -7,6 +7,7 @@ import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Workout from './components/Workout';
 import Diet from './components/Diet';
+import JoinUs from './components/JoinUs';
 
 const Home = () => (
   <div className="hero-section">
@@ -42,8 +43,9 @@ const App = () => {
             <li><Link to="/benefits">Benefits</Link></li>
             <li><Link to="/blogs">Blogs</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/join-us"><button className="join-button">Join us now</button></Link></li>
           </ul>
-          <button className="join-button">Join us now</button>
+          
         </nav>
 
         <Routes>
@@ -54,6 +56,7 @@ const App = () => {
           <Route path="/benefits" element={<Benefits />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/join-us" element={<JoinUs />} />
         </Routes>
       </div>
     </Router>
