@@ -50,7 +50,7 @@ body {
   position: sticky;
   margin: 0 auto;
   top: 35px;
-  height: 35px;
+  height: 60px;
 }
 
 .navbar .logo {
@@ -63,6 +63,7 @@ body {
   display: flex;
   gap: 1.5rem;
   margin-right: 50px;
+  margin-bottom: 0;
 }
 
 .nav-links li {
@@ -79,6 +80,9 @@ body {
 
 .nav-links a:hover {
   color: #f05454;
+}
+.nav-link ,.dropdown-toggle {
+  padding-top: 5px;
 }
 
 .join-button {
@@ -208,8 +212,7 @@ body {
 }
 .sub-text {
   font-size: 14px;
-  margin-top: 20px;
-  margin: 20px auto;
+  margin: 0 auto;
   line-height: 25px;
   width: 40%;
   text-align: center;
