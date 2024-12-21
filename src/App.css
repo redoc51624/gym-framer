@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 1rem 2rem;
+  color: #fff;
+
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: min-content;
+  justify-content: space-between;
+  max-width: 850px;
+  overflow: hidden;
+  padding: 14px 14px 14px 24px;
+  border-bottom-width: 1px;
+  border-color: rgb(26, 26, 26);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  backdrop-filter: blur(100px);
+  background-color: rgba(15, 15, 15, 0.65);
+  border-radius: 50px;
+  opacity: 1;
+  position: sticky;
+  margin: 0 auto;
+  top: 35px;
+  height: 35px;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 50px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(150, 151, 156);
+  font-size: 12px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f05454;
+}
+
+.join-button {
+  background-color: #f05454;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: rgb(204, 0, 0);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+
+}
+
+.join-button:hover {
+  background-color: #d94343;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  position: relative;
+  text-align: center;
+  padding: 4rem 2rem;
+  margin-top: 0;
+  background: url('./Images/hero.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 760px;
+  top: -80px;
+  z-index: -1;
+}
+
+.hero-text {
+  position: relative;
+  top: 100px;
+}
+
+.hero-section h1 {
+  box-sizing: border-box;
+  color: rgb(235, 0, 0);
+  display: block;
+  margin-bottom: 0;
+  font-family: Orbitron, sans-serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  height: 102px;
+  letter-spacing: normal;
+  line-height: 102px;
+  text-align: center;
+  text-decoration-color: rgb(235, 0, 0);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-transform: none;
+  text-wrap-mode: wrap;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-color: rgb(235, 0, 0);
+  -webkit-text-stroke-width: 0px;
+}
+
+.hero-section p {
+  color: rgb(220, 220, 220);
+  font-family: "Space Grotesk", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  height: 54px;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-transform: none;
+  -webkit-text-stroke-color: rgb(220, 220, 220);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.user-count {
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Content Pages */
+.content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #666;
+}
