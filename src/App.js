@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import About from './components/About'
 
 const Home = () => (
   <div className="hero-section">
@@ -14,12 +15,6 @@ const Home = () => (
   </div>
 );
 
-const About = () => (
-  <div className="content">
-    <h2>About Us</h2>
-    <p>Learn more about GymFluencer and how we help you achieve your fitness goals.</p>
-  </div>
-);
 
 const Services = () => (
   <div className="content">
