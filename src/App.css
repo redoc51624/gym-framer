@@ -62,18 +62,23 @@ body {
   list-style: none;
   display: flex;
   gap: 1.5rem;
-  margin-right: 50px;
+  /* margin-right: 50px; */
   margin-bottom: 0;
 }
 
 .nav-links li {
   display: inline;
+  padding-top: 6px;
+}
+
+.nav-links li:last-child {
+  padding-top: 0;
 }
 
 .nav-links a {
   text-decoration: none;
   color: rgb(150, 151, 156);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -81,7 +86,9 @@ body {
 .nav-links a:hover {
   color: #f05454;
 }
-.nav-link ,.dropdown-toggle {
+
+.nav-link,
+.dropdown-toggle {
   padding-top: 5px;
 }
 
@@ -210,6 +217,7 @@ body {
   font-weight: bold;
   color: #ff0000;
 }
+
 .sub-text {
   font-size: 14px;
   margin: 0 auto;
@@ -219,16 +227,20 @@ body {
   color: rgb(220, 220, 220);
   font-family: "Space Grotesk", serif;
 }
+
 .stats {
   margin-top: 50px;
 }
+
 .stat-item {
   margin: 20px 0;
 }
+
 .stat-number {
   font-size: 36px;
   font-weight: bold;
 }
+
 .stat-description {
   font-size: 14px;
   color: #888;
@@ -239,4 +251,81 @@ body {
 .form-container {
   margin: 0 auto;
   width: 50%;
+}
+
+.display-4 {
+  color: #ff0000;
+}
+
+.overlay p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.trusted span {
+  color: #ff0000;
+  margin: 20px 0;
+}
+
+form {
+  margin: 0 auto;
+  width: 60%;
+}
+
+
+/* Benefits css */
+
+.section-title {
+  color: #ff0000;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.benefit-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.benefit-card h5 {
+  color: #ff0000;
+  font-size: 1.25rem;
+  margin-top: 40px;
+}
+
+.benefit-card p {
+  color: #ccc;
+  font-size: 12px;
+  font-family: "Space Grotesk", serif;
+}
+
+.icon {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-color: black;
+  font-size: 2rem;
+  background-color: rgb(40, 40, 44);
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+.icon ::before {
+  padding-top: 7px;
+  box-sizing: border-box;
+}
+
+
+.phone-image {
+  max-width: 100%;
+  height: 450px;
+  border-radius: 20px;
 }
