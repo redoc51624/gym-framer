@@ -7,7 +7,9 @@ const Blogs = () => {
                 <div class="row">
                     <div class="col-lg-8 mb-4">
                         <div class="card bg-dark text-white">
-                            <img alt="People exercising in a gym" class="card-img" height="400" src="https://storage.googleapis.com/a1aa/image/xLKbTNW2evQrJqRQUtboxBsFqEfaD4x7eqobdyfJeG2WqjpfE.jpg" width="800" />
+                            <div className='img-container'>
+                            {/* <img alt="People exercising in a gym" class="card-img" height="400" src="https://storage.googleapis.com/a1aa/image/xLKbTNW2evQrJqRQUtboxBsFqEfaD4x7eqobdyfJeG2WqjpfE.jpg" width="800" /> */}
+                            </div>
                             <div class="card-img-overlay d-flex flex-column justify-content-end">
                                 <span class="badge bg-danger mb-2">
                                     Exercise
