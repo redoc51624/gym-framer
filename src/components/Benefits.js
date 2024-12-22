@@ -47,7 +47,7 @@ const Benefits = () => {
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
-                        <img alt="Mobile app interface showing a workout timer and a person doing dumbbell lunges" class="phone-image" height="600" src="https://storage.googleapis.com/a1aa/image/2hfipsaiKA3kECf0rI625Epe8wtAeg4MxCuByXtXmiynB01PB.jpg" width="300" />
+                        <img alt="Mobile app interface showing a workout timer and a person doing dumbbell lunges" class="phone-image" height="600" src="https://framerusercontent.com/images/1UO4LCYbX6UQvXFCBXLY0dAOHU.png" width="300" />
                     </div>
                     <div class="col-md-4">
                         <div class="benefit-card text-center">
