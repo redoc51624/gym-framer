@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div class="container">
+        <div class="contact-container">
             <img alt="GymFluencer logo" class="logo" height="50" src="https://framerusercontent.com/images/btsz5FjA3AvNFXvmH9iWv1xJd8.svg?scale-down-to=512 512w,https://framerusercontent.com/images/btsz5FjA3AvNFXvmH9iWv1xJd8.svg?scale-down-to=1024 1024w,https://framerusercontent.com/images/btsz5FjA3AvNFXvmH9iWv1xJd8.svg 1511w" width="100" />
             <h1 class="text-white">
                 GymFluencer

@@ -92,6 +92,15 @@ body {
   padding-top: 5px;
 }
 
+.dropdown-menu.show {
+  background-color: black;
+  border: 1px solid #333;
+  border-radius: 3px;
+  display: block;
+  position: absolute;
+  z-index: 100000;
+}
+
 .join-button {
   background-color: #f05454;
   font-size: 12px;
@@ -385,10 +394,11 @@ form {
 
 /* Contact css */
 
-.logo {
+.contact-container .logo {
   width: 100px;
   margin-bottom: 20px;
 }
+
 .email-box {
   background-color: #333;
   color: #fff;
@@ -397,6 +407,11 @@ form {
   display: inline-block;
   margin-top: 20px;
 }
+
 .email-box i {
   margin-right: 10px;
+}
+
+.contact-container {
+  padding-top: 100px;
 }
