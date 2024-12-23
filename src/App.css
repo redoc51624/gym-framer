@@ -97,8 +97,9 @@ body {
   border: 1px solid #333;
   border-radius: 3px;
   display: block;
+  z-index: 100;
   position: absolute;
-  z-index: 100000;
+  overflow: visible;
 }
 
 .join-button {
@@ -262,7 +263,14 @@ body {
   margin: 0 auto;
   width: 35%;
   border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px;
   padding: 40px 10px;
+  align-items: center;
+  height: min-content;
+  justify-content: flex-start;
+  padding: 32px;
+  width: 464px;
 }
 
 .display-4 {
@@ -282,8 +290,10 @@ body {
 
 form {
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
 }
+
+.mb-3 {}
 
 
 /* Benefits css */
@@ -414,4 +424,93 @@ form {
 
 .contact-container {
   padding-top: 100px;
+}
+
+
+/* Join us css */
+
+input {
+  border-image-width: 1;
+  box-sizing: border-box;
+  cursor: text;
+  display: inline-block;
+  font-family: "Space Grotesk", serif;
+  height: 44px;
+  line-height: 16.8px;
+  padding-block-end: 16px;
+  padding-block-start: 16px;
+  padding-bottom: 16px;
+  padding-inline-end: 16px;
+  padding-inline-start: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  text-align: start;
+  text-indent: 0px;
+  text-overflow: ellipsis;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: none;
+  text-wrap-mode: nowrap;
+  visibility: visible;
+  white-space-collapse: collapse;
+  width: 400px;
+  word-spacing: 0px;
+  background-color: #1a1a1a !important;
+  outline: none !important;
+  border: none !important;
+}
+
+input::placeholder {
+  color: #727272 !important;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+label {
+  float: left;
+  font-family: "Space Grotesk", serif;
+  font-size: 15px;
+}
+
+input[type=text]:focus {
+  border: 1px solid #f05454 !important;
+}
+
+.form-control:focus {
+  box-shadow: 2px red !important;
+  border: 1px solid #f05454 !important;
+}
+
+.signup-text {
+  color: #ff0000;
+  margin: 20px 10px;
+}
+
+.submit-btn {
+  place-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row;
+  gap: 4px;
+  height: min-content;
+  overflow: hidden;
+  padding: 9px 28px;
+  position: relative;
+  width: 401px;
+  background-color: rgb(235, 0, 0);
+  border-radius: 53px;
+  opacity: 1;
+}
+
+.already {
+  color: lightgrey !important;
+  width: 100% !important;
+  font-size: 15px;
+  font-family: "Space Grotesk", serif;
+}
+.already a {
+  color: white;
 }

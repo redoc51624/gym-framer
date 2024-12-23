@@ -18,28 +18,32 @@ const JoinUs = () => {
                                 Trusted by 3+ million users
                             </span>
                         </div>
-                        <h2>
+                        <h2 className='signup-text'>
                             Sign Up
                         </h2>
                         <form>
                             <div className="mb-3">
+                                <label>Name</label><br></br>
                                 <input className="form-control" placeholder="Kindly enter your name here" type="text" />
                             </div>
                             <div className="mb-3">
+                            <label>Email</label><br></br>
                                 <input className="form-control" placeholder="Kindly enter your email here" type="email" />
                             </div>
 
                             <div className="mb-3">
+                            <label>Password</label><br></br>
                                 <input className="form-control" placeholder="Kindly enter your password here" type="password" />
                             </div>
                             <div className="mb-3">
+                            <label>Confirm Password</label><br></br>
                                 <input className="form-control" placeholder="Kindly confirm your password here" type="password" />
                             </div>
-                            <button className="btn btn-danger" type="submit">
+                            <button className="submit-btn btn btn-danger" type="submit">
                                 Confirm
                             </button>
                         </form>
-                        <p className="mt-3">
+                        <p className="already mt-3">
                             Already have an account?
                             <a href="/#">
                                 Sign in
